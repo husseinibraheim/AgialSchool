@@ -20,21 +20,21 @@
     color: $gray;
     background-color: $primaryColor;
 
-    .title {
+    .title h3 {
         font-size: 3rem;
         font-weight: bolder;
         margin-bottom: 2rem;
         color: $secoundryColor;
     }
 
-    p {
+    .paragraph{
         line-height: 1.7rem;
     }
 
 }
 
 .RightSection {
-    .title {
+    .title h3{
         color: $primaryColor !important;
     }
 

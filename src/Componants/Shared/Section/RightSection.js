@@ -13,12 +13,12 @@ function RightSection(props) {
                         </section>
 
                         <article className=" RightSection sectionArticle col-md-6">
-                            <h3 className="title">
+                            <span className="title">
                                 {props.title}
-                            </h3>
-                            <p>
+                            </span>
+                            <span className="paragraph">
                                 {props.paragraph}
-                            </p>
+                            </span>
                         </article>
                     </div>
                 </div>
