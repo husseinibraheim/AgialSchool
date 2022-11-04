@@ -52,7 +52,6 @@ import Footer from './Componants/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from "react-router-dom"
 
-
 function App() {
   return (
     <>

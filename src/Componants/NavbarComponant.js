@@ -7,7 +7,7 @@ function NavbarComponant() {
 
   return (
     <>
-      <nav id="navBar">
+      {/* <nav id="navBar">
         <div className="navContainer">
           <div className="navImg">
             <Link to="/home">
@@ -36,54 +36,40 @@ function NavbarComponant() {
               </li>
               <li>School Grades
                 <ul class="dropdown-menu">
-                  {/* ////////////////// KG//////////////////// */}
                   <li><Link class="dropdown-item">
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="." role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         KG
                       </a>
                       <ul class="dropdown-menu">
-                        {/* //////////////////KG 2//////////////////// */}
                         <li><Link  className="link"to="/KGOne">KG 1</Link></li>
-                        {/* //////////////////KG 2//////////////////// */}
                         <li><Link  className="link"to="/KGTwo">KG 2</Link></li>
                       </ul>
                     </li>
                   </Link></li>
-                  {/* ////////////////// Primary//////////////////// */}
                   <li><Link class="dropdown-item">
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="." role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Primary
                       </a>
                       <ul class="dropdown-menu">
-                        {/* //////////////////Primary 1//////////////////// */}
                         <li><Link  className="link"to="/primaryOne">Primary 1</Link></li>
-                        {/* //////////////////Primary 2//////////////////// */}
                         <li><Link  className="link"to="/primaryTwo">Primary 2</Link></li>
-                        {/* //////////////////Primary 3//////////////////// */}
                         <li><Link  className="link"to="/primaryThr">Primary 3</Link></li>
-                        {/* //////////////////Primary 4//////////////////// */}
                         <li><Link  className="link"to="/primaryFour">Primary 4</Link></li>
-                        {/* //////////////////Primary 5//////////////////// */}
                         <li><Link  className="link"to="/primaryFi">Primary 5</Link></li>
-                        {/* //////////////////Primary 6//////////////////// */}
                         <li><Link  className="link"to="/primarySix">Primary 6</Link></li>
                       </ul>
                     </li>
                   </Link></li>
-                  {/* //////////////////Pre-School//////////////////// */}
                   <li><Link class="dropdown-item">
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="." role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         prep
                       </a>
                       <ul class="dropdown-menu">
-                        {/* //////////////////prep 1//////////////////// */}
                         <li><Link  className="link"to={"/prepOne"}>prep 1</Link></li>
-                        {/* //////////////////prep 2//////////////////// */}
                         <li><Link  className="link"to={"/prepTwo"}>prep 2</Link></li>
-                        {/* //////////////////prep 3//////////////////// */}
                         <li><Link  className="link"to={"/prepTh"}>prep 3</Link></li>
                       </ul>
                     </li>
@@ -118,7 +104,46 @@ function NavbarComponant() {
       </div>
 
 
-    </nav>
+    </nav>  */}
+      <header id="header" class="fixed-top ">
+        <div class="container d-flex align-items-center justify-content-between">
+
+          <h1 class="logo"><a href="index.html">Dewi</a></h1>
+
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              <li><a class="nav-link scrollto" href="#services">Services</a></li>
+              <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+              <li><a class="nav-link scrollto" href="#team">Team</a></li>
+              <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Deep Drop Down 1</a></li>
+                      <li><a href="#">Deep Drop Down 2</a></li>
+                      <li><a href="#">Deep Drop Down 3</a></li>
+                      <li><a href="#">Deep Drop Down 4</a></li>
+                      <li><a href="#">Deep Drop Down 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Drop Down 2</a></li>
+                  <li><a href="#">Drop Down 3</a></li>
+                  <li><a href="#">Drop Down 4</a></li>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+              <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+
+
+
+        </div>
+      </header>
 
 
     </>
