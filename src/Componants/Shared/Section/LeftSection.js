@@ -12,12 +12,12 @@ function LeftSection(props) {
                     <div className="row">
                        
                         <article className="leftSection sectionArticle col-md-6">
-                            <h3 className="title">
+                            <span className="title">
                                 {props.title}
-                            </h3>
-                            <p>
+                            </span>
+                            <span>
                                 {props.paragraph}
-                            </p>
+                            </span>
 
                         </article>
 
