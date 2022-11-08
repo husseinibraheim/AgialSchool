@@ -1,5 +1,5 @@
 import Banner from "../Banner";
-import "../style/aboutUs_values.scss"
+import "../style/aboutusValues.scss"
 import image from "../../../src/Media/values.jpg";
 import "../../App.scss";
 import Head from "../../../src/Media/Head.jpg";
