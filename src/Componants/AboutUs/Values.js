@@ -1,4 +1,4 @@
-import Banner from "../Banner";
+import Banner from "../Shared/HeaderImg/Banner";
 import "../style/aboutusValues.scss"
 import image from "../../../src/Media/values.jpg";
 import "../../App.scss";
