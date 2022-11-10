@@ -5,30 +5,24 @@ import RightSection from "../Shared/Section/RightSection";
 import LeftSection from "../Shared/Section/LeftSection";
 
 function Experience() {
-    const firstTitle = <></>
-    const firstParagraph = <> <ul>
-
-        <li> We nurture competence and confidence, and develop an
-            individual’s skills and moral compass</li>
-        <li>receive an education designed to help them thrive and
-            contribute long after their years at school. Learning takes a
-            variety of forms and extends beyond the confines of the
-            classroom. We are committed to helping our pupils engage with
-            the wider world both physically and intellectually.</li>
-    </ul>
+    const firstTitle = <h3> We nurture competence and confidence, and develop an
+        individual’s skills and moral compass</h3>
+    const firstParagraph = <> <p> receive an education designed to help them thrive and
+        contribute long after their years at school. Learning takes a
+        variety of forms and extends beyond the confines of the
+        classroom. We are committed to helping our pupils engage with
+        the wider world both physically and intellectually.
+    </p>
     </>
 
-    const secTitle = <></>
-    const secParagraph = <> <ul>
-        <li>The value of charity and community service is instilled in our
-            children alongside an appreciation of the need to care for the
-            environment</li>
-        <br></br>
-        <li>  Opportunities for the development of physical and mental
-            resilience are built into the outdoor and adventurous
-            activities program along with school camps that play a vital
-            and enjoyable part in our Outdoor Learning Program.</li>
-    </ul>
+    const secTitle = <h3> The value of charity and community service is instilled in our
+        children alongside an appreciation of the need to care for the
+        environment</h3>
+    const secParagraph = <> <p> Opportunities for the development of physical and mental
+        resilience are built into the outdoor and adventurous
+        activities program along with school camps that play a vital
+        and enjoyable part in our Outdoor Learning Program.
+    </p>
     </>
     return (
         <>
