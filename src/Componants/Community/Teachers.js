@@ -1,4 +1,4 @@
-import Banner from "../Banner"
+import Banner from "../Shared/HeaderImg/Banner"
 import image from "../../../src/Media/Teacher.jpg";
 import RightSection from "../Shared/Section/RightSection";
 import Head from "../../../src/Media/Head.jpg";

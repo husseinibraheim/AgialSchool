@@ -1,7 +1,6 @@
+
+
 function prepOne(){
-
-
-
     return(       
          <>
             <div className="text-center">
