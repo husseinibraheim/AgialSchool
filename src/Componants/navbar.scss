@@ -41,13 +41,13 @@
 
           &:hover {
             border: 2px solid $gray;
-            border-radius: 1rem;
+            border-radius: 0.5rem;
           }
 
           ul {
             list-style: none;
             position: absolute;
-            border-radius: 1.25rem;
+            border-radius: 0.25rem;
             top: 200%;
             padding: 2rem 0.5rem;
             width: 200px;
@@ -81,7 +81,7 @@
                   background-color: rgba(17, 17, 17, 0.226);
                   opacity: 1;
                   visibility: visible;
-
+                  
                 }
 
               }

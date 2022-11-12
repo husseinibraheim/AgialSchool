@@ -9,6 +9,7 @@ import RightSection from "./Shared/Section/RightSection";
 import welcomeImg from "../assets/photos/welcomeimg.jpg"
 import adminstrationImg from "../assets/photos/admission.jpg"
 import HeaderVideo from "./Shared/HeaderVideo/HeaderVideo";
+import { useState } from "react";
 
 
 function HomeComponant() {

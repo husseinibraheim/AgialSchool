@@ -32,7 +32,7 @@ function NavbarComponant() {
           </div>
           <div className="navItem">
             <ul className={active} >
-              <li><Link to="/aboutus" className="link" >About Us</Link>
+              <li>About Us
                 <ul >
                   <li><Link className="link" to="/Overview">Overview</Link></li>
                   <li><Link className="link" to="/Welcomeletter">Welcome Letter</Link></li>
