@@ -116,7 +116,6 @@ function App() {
 
       </BrowserRouter>
       <Footer />
-
     </>
 
 
