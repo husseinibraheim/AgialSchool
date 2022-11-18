@@ -50,22 +50,22 @@ function NavbarComponant() {
 
               <li>School Grades
                 <ul>
-                    <li class="nav-link dropdown-toggle">KG
-                      <ul>
-                        <li><Link className="link" to="/KGOne">KG 1</Link></li>
-                        <li><Link className="link" to="/KGTwo">KG 2</Link></li>
-                      </ul>
-                    </li>
-                 
+                  <li class="nav-link dropdown-toggle">KG
+                    <ul>
+                      <li><Link className="link" to="/KGOne">KG 1</Link></li>
+                      <li><Link className="link" to="/KGTwo">KG 2</Link></li>
+                    </ul>
+                  </li>
+
                   <li class="nav-link dropdown-toggle">Primary
-                      <ul >
-                        <li><Link className="link" to="/primaryOne">Primary 1</Link></li>
-                        <li><Link className="link" to="/primaryTwo">Primary 2</Link></li>
-                        <li><Link className="link" to="/primaryThr">Primary 3</Link></li>
-                        <li><Link className="link" to="/primaryFour">Primary 4</Link></li>
-                        <li><Link className="link" to="/primaryFi">Primary 5</Link></li>
-                        <li><Link className="link" to="/primarySix">Primary 6</Link></li>
-                      </ul>
+                    <ul >
+                      <li><Link className="link" to="/primaryOne">Primary 1</Link></li>
+                      <li><Link className="link" to="/primaryTwo">Primary 2</Link></li>
+                      <li><Link className="link" to="/primaryThr">Primary 3</Link></li>
+                      <li><Link className="link" to="/primaryFour">Primary 4</Link></li>
+                      <li><Link className="link" to="/primaryFi">Primary 5</Link></li>
+                      <li><Link className="link" to="/primarySix">Primary 6</Link></li>
+                    </ul>
                   </li>
                   <li>
                     <li class="nav-link dropdown-toggle">Prep
@@ -103,6 +103,13 @@ function NavbarComponant() {
 
               </li>
               <li>  <Link class="nav-link active" aria-current="page" to="/ContactUs">Contact Us</Link>
+              </li>
+
+              <li>LMS
+                <ul >
+                  <li><a className="nav-link" rel="noopener noreferrer" href="http://localhost:3001/" target="_blank">Login</a> </li>
+                  <li><a className="nav-link" rel="noopener noreferrer" href="http://localhost:4200/" target="_blank">Admin Login</a> </li>
+                </ul>
               </li>
 
             </ul>

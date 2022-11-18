@@ -34,7 +34,7 @@ function Admissions() {
         <>
             <Banner
                 head="ADMISSION PROCESS"
-                title="JOIN THE REPTON FAMILY"
+                title="JOIN TO AGIAL FAMILY"
                 img={image}
             />
 
