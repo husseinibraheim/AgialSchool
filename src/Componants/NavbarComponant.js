@@ -48,7 +48,7 @@ function NavbarComponant() {
                 </ul>
               </li>
 
-              <li>School Grades
+              {/* <li>School Grades
                 <ul>
                   <li class="nav-link dropdown-toggle">KG
                     <ul>
@@ -78,7 +78,7 @@ function NavbarComponant() {
                   </li>
                 </ul>
               </li>
-
+*/}
 
 
 
