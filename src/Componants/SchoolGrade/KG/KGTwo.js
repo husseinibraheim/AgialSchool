@@ -1,25 +1,27 @@
-function KGTwo(){
+import RightSection from "../../Shared/Section/RightSection";
+import subjectsImg from "../../../assets/photos/schoolMission.jpg"
 
 
 
-return(
-
-<>
-<div className="text-center">
-    <h1>Educational Subjects</h1>
-        <ul>
-            <li>Le jardin 1</li>
-            <li>Connect</li>
-            <li>Connect+</li>
-            <li>Discover</li>
-            <li>Level Read on : Phonics</li>
-        </ul>
-
-    </div>
+const subjectsTitle = <><h3>Educational Subjects</h3></>
+const subjectsParagraph = <>
+    <ul>
+        <li>Le jardin 1</li>
+        <li>Connect</li>
+        <li>Connect+</li>
+        <li>Discover</li>
+        <li>Level Read on : Phonics</li>
+    </ul>
 </>
 
+function KGTwo() {
+    return (
+        <>
+            <RightSection img={subjectsImg} title={subjectsTitle} paragraph={subjectsParagraph} />
+        </>
 
-)
+
+    )
 
 
 }

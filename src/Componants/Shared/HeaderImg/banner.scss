@@ -1,0 +1,41 @@
+@import "../../style/colors.scss";
+
+#banner {
+
+    .card {
+        max-height: 80vh !important;
+        overflow: hidden;
+        margin-bottom: 2rem;
+
+        .card-img {
+            filter: brightness(50%);
+
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+
+            .card-title,
+            .card-head {
+
+            }
+
+            .card-head {
+                font-size: 2em;
+                font-weight: bold;
+                color: $gray;
+            }
+
+            .card-title {
+                font-size: 3em;
+
+                color: $secoundryColor;
+
+            }
+        }
+    }
+}

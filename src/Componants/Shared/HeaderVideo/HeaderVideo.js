@@ -22,8 +22,8 @@ function HeaderVideo() {
           <article>
             <h1>Agial International schools</h1>
             <p>Our school is an institute with ambitious expectations, aims at creating a new generation of great thinkers who are able to solve problems. It’s a place for the ambitious parents who want to provide high quality education for their children.</p>
-          <button className="primaryBtn"> <Link to="/aboutus" className="link" >About Us</Link></button>
-          
+            <button className="primaryBtn"> <Link to="/aboutus" className="link" >About Us</Link></button>
+
           </article>
 
         </div>
@@ -38,7 +38,7 @@ function HeaderVideo() {
           >
             <Carousel.Item>
               <video
-                className="slider-video"
+                className="slider-video w-100"
                 src={Vid1}
                 loop
                 autoPlay
